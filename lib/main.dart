@@ -57,11 +57,11 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: ElevatedButton(
-        onPressed: () async {
-          await fetch();
-          print(stores.length);
-        },
-        child: Text('테스트'),
+          onPressed: () async {
+            await fetch();
+            print(stores.length);
+          },
+          child: Text('테스트'),
         ),
       ),
     );
